@@ -1,1 +1,0 @@
-import './globals.css'; export const metadata={title:'IONEs',description:'Wear Silence. Own the Moment.'}; export default function RootLayout({children}:{children:React.ReactNode}){return <html lang='en'><body>{children}</body></html>}
