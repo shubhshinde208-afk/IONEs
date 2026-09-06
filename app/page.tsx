@@ -1,1 +1,8 @@
-export default function Home(){return <main className='hero'><div className='seal'>永遠</div><h1>IONEs</h1><p>Wear Silence. Own the Moment.</p><button>ENTER DROP 001</button><section><h2>Lavender Oversized Tee</h2><strong>₹799</strong><div>Made in India 🇮🇳</div></section><footer>© 2026 IONEs. All Rights Reserved.</footer></main>}
+<button
+  className="btn"
+  onClick={() => {
+    document.getElementById("shop")?.scrollIntoView({ behavior: "smooth" });
+  }}
+>
+  ENTER DROP 001
+</button>
