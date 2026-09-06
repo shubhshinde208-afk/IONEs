@@ -18,9 +18,13 @@ export default function Home() {
 
         <p>Wear Silence. Own the Moment.</p>
 
-        <button className="btn" onClick={goToShop}>
-          ENTER DROP 001
-        </button>
+        <button
+  className="btn"
+  style={{ width: "100%" }}
+  onClick={() => window.location.href = "/checkout"}
+>
+  Buy Now
+</button>
       </section>
 
       <section id="shop" className="wrap">
