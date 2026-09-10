@@ -9,7 +9,7 @@ declare global {
 export default function Checkout() {
   const payNow = () => {
     const options = {
-      key: "rzp_test_xxxxxxxxxxxx", // Test Key ID
+      key: "rzp_test_TaP6p5WU8KTl8A", // Test Key ID
       amount: 79900,
       currency: "INR",
       name: "IONEs",
