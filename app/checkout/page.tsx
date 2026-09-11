@@ -10,7 +10,7 @@ export default function Checkout() {
   const payNow = () => {
     const options = {
       key: "rzp_live_TaiymXP9Z6IywX", // Test Key ID
-      amount: 79900,
+      amount: 100,
       currency: "INR",
       name: "IONEs",
       description: "DROP 001 — Lavender Oversized Tee",
